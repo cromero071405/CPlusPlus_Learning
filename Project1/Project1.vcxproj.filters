@@ -18,5 +18,8 @@
     <ClCompile Include="POINTERS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="VARIABLES.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

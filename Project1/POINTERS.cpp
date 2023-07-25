@@ -25,10 +25,10 @@
 // Pointers themselves are just variables, such as variables are also stored in memory. That's why double pointers, triple pointers can occur.
 
 // CODE NOTES:
-#include <iostream>
-#define LOG(x) std::cout << x << std::endl
+// #include <iostream>
+// #define LOG(x) std::cout << x << std::endl
 
-int main() {
+// int main() {
 
 	// Different Ways
 	// void* ptr = 0;
@@ -41,8 +41,8 @@ int main() {
 	// LOG(var);
 
 	// Heap Alocated
-	char* buffer = new char[8];
-	memset(buffer, 0, 8); // Fills a block of memory with data that we specified.
-	delete[] buffer;
-	std::cin.get();
-}
+	// char* buffer = new char[8];
+	// memset(buffer, 0, 8); // Fills a block of memory with data that we specified.
+	// delete[] buffer;
+	// std::cin.get();
+// }
